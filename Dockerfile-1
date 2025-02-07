@@ -1,0 +1,9 @@
+#syntax=docker/dockerfile:1
+
+# Start your image with a node base image
+FROM node:18-alpine
+
+# Create an application directory
+RUN mkdir -p /app
+
+# Set the /app directorty
